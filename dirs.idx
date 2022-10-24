@@ -1,0 +1,15 @@
+dirExists	dirs.html#dirExists,Path	dirs: dirExists(dir: Path): bool	
+createDir	dirs.html#createDir,Path	dirs: createDir(dir: Path)	
+existsOrCreateDir	dirs.html#existsOrCreateDir,Path	dirs: existsOrCreateDir(dir: Path): bool	
+removeDir	dirs.html#removeDir,Path	dirs: removeDir(dir: Path; checkDir = false)	
+moveDir	dirs.html#moveDir,Path,Path	dirs: moveDir(source, dest: Path)	
+walkPattern	dirs.html#walkPattern.i,Path	dirs: walkPattern(pattern: Path): Path	
+walkFiles	dirs.html#walkFiles.i,Path	dirs: walkFiles(pattern: Path): Path	
+walkDirs	dirs.html#walkDirs.i,Path	dirs: walkDirs(pattern: Path): Path	
+walkDir	dirs.html#walkDir.i,Path	dirs: walkDir(dir: Path; relative = false; checkDir = false): tuple[\n    kind: PathComponent, path: Path]	
+walkDirRec	dirs.html#walkDirRec.i,Path	dirs: walkDirRec(dir: Path; yieldFilter = {pcFile}; followFilter = {pcDir};\n           relative = false; checkDir = false): Path	
+directory	dirs.html#directory_1	Module dirs	
+directory	dirs.html#directory_2	Module dirs	
+glob	dirs.html#glob_1	Module dirs	
+glob	dirs.html#glob_2	Module dirs	
+glob	dirs.html#glob_3	Module dirs	
