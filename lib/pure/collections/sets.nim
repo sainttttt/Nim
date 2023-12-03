@@ -39,6 +39,14 @@
 ##   echo s1 - s2    # {1, 9}
 ##   echo s1 * s2    # {5}
 ##   echo s1 -+- s2  # {9, 1, 3, 7}
+##   
+##   let s3 = initHashSet[int]()
+##   s3.incl(3)
+##   echo s3          # {3}
+##   s3.incl(4)
+##   echo s3          # {4, 3}
+##   s3.incl(3)
+##   echo s3          # {4, 3}
 ##   ```
 ##
 ## Note: The data types declared here have *value semantics*: This means
